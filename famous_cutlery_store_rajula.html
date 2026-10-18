@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#172b26">
+  <title>Famous Cutlery Store Rajula</title>
+  <meta name="description" content="Explore cutlery and kitchen essentials at Famous Cutlery Store Rajula. Order conveniently through WhatsApp.">
+  <style>
+    :root{--green:#172b26;--green2:#25483d;--gold:#d9b978;--cream:#fbf8f0;--ink:#1c2924;--muted:#68756e}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--cream);line-height:1.5}
+    a{color:inherit;text-decoration:none} .wrap{width:min(1100px,92%);margin:auto}
+    header{background:var(--green);color:#fff;position:sticky;top:0;z-index:5;border-bottom:1px solid #ffffff20}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 0}.brand{font-weight:800;letter-spacing:.08em}.brand small{display:block;color:var(--gold);font-size:11px;letter-spacing:.18em}
+    .navlinks{display:flex;gap:18px;font-size:14px}.navlinks a:hover{color:var(--gold)}
+    .hero{background:linear-gradient(115deg,#172b26f5,#172b26bd),url('https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1800&q=85') center/cover;color:white;padding:72px 0 76px}
+    .eyebrow{color:var(--gold);font-size:12px;letter-spacing:.2em;text-transform:uppercase;font-weight:700}
+    h1{font-size:clamp(34px,6vw,62px);line-height:1.05;max-width:680px;margin:14px 0}
+    .hero p{max-width:570px;color:#e6ece8;font-size:17px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:13px 18px;border-radius:8px;font-weight:700;border:0;cursor:pointer}
+    .btn-gold{background:var(--gold);color:var(--green)} .btn-green{background:#16865b;color:white}.btn-outline{border:1px solid #d7dfda;color:white;margin-left:8px}
+    section{padding:52px 0}.section-head{text-align:center;margin-bottom:26px}.section-head h2{font-size:clamp(26px,4vw,36px);margin:6px 0}.section-head p{color:var(--muted);margin:0}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.product{background:white;border:1px solid #e9e5da;border-radius:14px;overflow:hidden;box-shadow:0 8px 22px #172b260b}.product img{display:block;width:100%;height:220px;object-fit:cover;background:#eee}.product-body{padding:17px}.product h3{margin:0 0 5px;font-size:19px}.product p{margin:0 0 12px;color:var(--muted);font-size:14px}.price{font-weight:800;color:var(--green);margin-bottom:13px}
+    .about{background:#eef1e9}.about-inner{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:center}.about img{width:100%;height:310px;object-fit:cover;border-radius:14px}.about h2{font-size:32px;line-height:1.15}.ticks{padding:0;list-style:none}.ticks li{margin:10px 0}.ticks li:before{content:"✓";font-weight:bold;color:#16865b;margin-right:10px}
+    .contact{background:var(--green);color:white;text-align:center}.contact p{color:#dce5df}.contact .btn{margin-top:10px}
+    footer{background:#10201b;color:#d5dfd9;padding:20px 0;font-size:13px}.footer-inner{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    .notice{font-size:12px;color:#6c766f;text-align:center;margin-top:18px}
+    @media(max-width:720px){.navlinks{gap:10px;font-size:12px}.hero{padding:55px 0}.grid{grid-template-columns:1fr 1fr}.product img{height:165px}.about-inner{grid-template-columns:1fr}.about img{height:230px}}
+    @media(max-width:440px){.grid{grid-template-columns:1fr}.product img{height:220px}.navlinks a:nth-child(2){display:none}.btn-outline{margin:10px 0 0}.hero .btn{width:100%;margin:7px 0 0}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#home">FAMOUS CUTLERY<small>STORE · RAJULA</small></a>
+    <nav class="navlinks" aria-label="Main navigation"><a href="#products">Products</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+  </div>
+</header>
+<main>
+  <section class="hero" id="home">
+    <div class="wrap">
+      <div class="eyebrow">Kitchen & dining essentials</div>
+      <h1>Everyday essentials.<br>Made to feel special.</h1>
+      <p>Explore our cutlery and kitchen collection. Choose what you like and send your order enquiry directly on WhatsApp.</p>
+      <a class="btn btn-gold" href="#products">Explore collection ↓</a>
+      <a class="btn btn-outline" href="https://wa.me/91YOURNUMBER?text=Hello%20Famous%20Cutlery%20Store%20Rajula%2C%20I%20want%20to%20enquire%20about%20your%20products." target="_blank" rel="noopener">Chat on WhatsApp</a>
+    </div>
+  </section>
+
+  <section id="products">
+    <div class="wrap">
+      <div class="section-head"><div class="eyebrow">Our collection</div><h2>Shop popular categories</h2><p>Contact us for current prices, availability and delivery details.</p></div>
+      <div class="grid">
+        <article class="product">
+          <img src="https://images.unsplash.com/photo-1584990347449-a2d4c4e3b6f4?auto=format&fit=crop&w=900&q=80" alt="Elegant table setting with dining utensils" loading="lazy">
+          <div class="product-body"><h3>Spoon &amp; Fork Sets</h3><p>Everyday dining and serving essentials.</p><div class="price">Price on request</div><a class="btn btn-green order" data-product="Spoon and Fork Sets" href="#">Enquire on WhatsApp</a></div>
+        </article>
+        <article class="product">
+          <img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=900&q=80" alt="Kitchen utensils" loading="lazy">
+          <div class="product-body"><h3>Kitchen Utensils</h3><p>Useful tools for everyday cooking.</p><div class="price">Price on request</div><a class="btn btn-green order" data-product="Kitchen Utensils" href="#">Enquire on WhatsApp</a></div>
+        </article>
+        <article class="product">
+          <img src="https://images.unsplash.com/photo-1603199506016-b9a594b593c0?auto=format&fit=crop&w=900&q=80" alt="Dining and serving items" loading="lazy">
+          <div class="product-body"><h3>Dining & Serving</h3><p>Items for meals, guests and celebrations.</p><div class="price">Price on request</div><a class="btn btn-green order" data-product="Dining and Serving items" href="#">Enquire on WhatsApp</a></div>
+        </article>
+      </div>
+      <p class="notice">Sample categories and photos are for demonstration. Replace them with your actual products, prices and photos before publishing.</p>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="wrap about-inner">
+      <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1100&q=85" alt="Kitchen and dining essentials" loading="lazy">
+      <div><div class="eyebrow">Welcome to our store</div><h2>Famous Cutlery Store Rajula</h2><p>Find practical cutlery and kitchen essentials for your home. Browse the collection and message us to check product details before ordering.</p><ul class="ticks"><li>Easy WhatsApp enquiries</li><li>Ask about current stock and prices</li><li>Local store serving Rajula customers</li></ul></div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="wrap"><div class="eyebrow">Let's talk</div><h2>Need a product or price?</h2><p>Message us on WhatsApp and tell us what you're looking for.</p>
+      <a class="btn btn-gold" href="https://wa.me/91YOURNUMBER?text=Hello%2C%20I%20want%20to%20enquire%20about%20products%20at%20Famous%20Cutlery%20Store%20Rajula." target="_blank" rel="noopener">Message us on WhatsApp</a>
+      <p style="font-size:13px;margin-top:18px">Location: Rajula, Gujarat · Add your exact shop address and business hours here.</p>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap footer-inner"><span>© <span id="year"></span> Famous Cutlery Store Rajula</span><span>Made for easy mobile shopping</span></div></footer>
+<script>
+  // IMPORTANT: Replace 91YOURNUMBER below with your WhatsApp number including India's country code 91.
+  // Use digits only: no + sign, spaces, brackets or hyphens.
+  const WHATSAPP_NUMBER = "91YOURNUMBER";
+  function waLink(message){
+    return "https://wa.me/" + WHATSAPP_NUMBER + "?text=" + encodeURIComponent(message);
+  }
+  document.querySelectorAll(".order").forEach(function(button){
+    const product = button.dataset.product;
+    button.href = waLink("Hello Famous Cutlery Store Rajula, I am interested in: " + product + ". Please share price and availability.");
+    button.target = "_blank";
+    button.rel = "noopener";
+  });
+  document.getElementById("year").textContent = new Date().getFullYear();
+  document.querySelectorAll('a[href*="91YOURNUMBER"]').forEach(function(link){
+    link.addEventListener("click", function(event){
+      if(WHATSAPP_NUMBER === "91YOURNUMBER"){
+        event.preventDefault();
+        alert("Please edit index.html and replace 91-8141321007 with your WhatsApp number first.");
+      }
+    });
+  });
+</script>
+</body>
+</html>
